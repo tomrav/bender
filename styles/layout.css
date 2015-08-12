@@ -1,0 +1,396 @@
+
+/*  ##########################  */
+/*  ### MAIN - MEET BENDER ###  */
+/*  ##########################  */
+
+.meet {
+
+}
+
+.intro-container {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.intro-text {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    display: inline-block;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.intro-container figure {
+    width: 25%;
+    float: right;
+    margin: 5px;
+}
+
+.intro-container figure img {
+    max-width: 100%;
+}
+
+.intro-container figure figcaption {
+    text-align: center;
+}
+
+.intro-text div {
+    overflow: auto;
+}
+
+@media only screen and (max-width: 920px) {
+
+    .intro-container figure figcaption {
+        font-size: 0.85rem;
+    }
+
+    .intro-text div {
+        overflow: visible;
+    }
+    
+    @media only screen and (max-width: 500px) {
+
+        .intro-container figure {
+            display: block;
+            width: 95%;
+        }
+
+        .intro-container figure figcaption {
+            font-size: 2rem;
+            padding-bottom: 5px;
+            border-bottom: 2px dashed rgb(100, 77, 82);
+            margin-bottom: 5px;
+        }
+
+    }
+
+}
+
+/*  ############################  */
+/*  ### MAIN - DO THE BENDER ###  */
+/*  ############################  */
+
+.do {
+    text-align: center;
+}
+
+.cheating {
+    content: "";
+    display: block;
+    height: 100px; /* fixed header height*/
+    margin: -100px 0 0 0; /* negative fixed header height */
+    visibility: hidden;
+}
+
+.services-container {
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.service {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+.service > div {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 10px auto;
+}
+
+@media only screen and (max-width: 840px) {
+
+    .service {
+        display: block;
+        width: 95%;
+        max-width: 320px;
+        margin: 25px auto;
+        padding: 10px 0;
+        border: 2px dashed rgb(100, 77, 82);
+    }
+
+    .service span {
+        margin: 0 10px;
+        display: inline-block;
+    }
+}
+
+.bets {
+    background: url("../resources/images/bender-bets.png");
+    background-position-y: -45px;
+}
+
+.booze {
+background: url("../resources/images/bender-booze.png");
+background-position-x: 40px;
+}
+
+.bots {
+    background: url("../resources/images/bender-bots.png");
+    background-position-y: -45px;
+}
+
+.ribbon {
+    padding: 15px;
+    color: rgb(247, 122, 82);
+    background: rgb(51, 37, 50);
+    text-align: center;
+    position: relative;
+    top: 64%;
+}
+
+/*  ##############################  */
+/*  ### MAIN - BOOK THE BENDER ###  */
+/*  ##############################  */
+
+.book {
+    text-align: center;
+}
+
+.packages {
+    height: 400px;
+    margin: 10px auto;
+    border: 2px dashed rgb(51, 37, 50);
+
+}
+
+.packages > div {
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+}
+
+.enterprise-container {
+    width: 45%;
+    height: 100%;
+    padding: 0 10px 0 0;
+}
+
+.book-bender {
+    margin: 10px 25px 25px 25px;
+    padding: 15px;
+    font-size: 1.1em;
+}
+
+.single-or-group {
+    width: 30%;
+    /*margin-left: 10px;*/
+}
+
+.single-or-group div h4 {
+    margin: 25px 0 5px 0;
+}
+
+.package-picture {
+    max-height: 400px;
+}
+
+.group {
+    display: block;
+    height: 43%;
+    border-bottom: 2px dashed rgb(164, 154, 135);
+}
+
+.single {
+    display: block;
+    height: 50%;
+    margin-left: 5px;
+}
+
+@media only screen and (max-width: 745px) {
+
+    .packages {
+        height: auto;
+    }
+
+    .packages > .enterprise-container {
+        height: 400px;
+    }
+
+    .package-picture {
+        float: right;
+    }
+
+    .single-or-group {
+        width: 100%;
+    }
+
+    .group {
+        border-bottom: none;
+    }
+
+    .packages > .single-or-group {
+        display: block;
+    }
+
+    .single-or-group > div {
+        display: inline-block;
+        float: left;
+    }
+
+    .single-or-group > div {
+        border-top: 2px dashed rgb(164, 154, 135);
+        padding-bottom: 25px;
+    }
+
+    @media only screen and (max-width: 600px) {
+
+        .package-picture {
+            margin-top: 25px;
+        }
+
+        .single-or-group {
+            margin: 0 auto;
+            width: 90%;
+        }
+
+        .single-or-group > div {
+            border-top: 2px dashed rgb(164, 154, 135);
+            padding-bottom: 25px;
+        }
+
+        @media only screen and (max-width: 590px) {
+
+            .enterprise-container {
+                width: 60%;
+            }
+
+            @media only screen and (max-width: 450px) {
+
+                .enterprise-container {
+                    width: 90%;
+                    padding: 5px;
+                }
+
+                .package-picture {
+                    display: none;
+                }
+
+            }
+        }
+    }
+}
+
+
+
+/*  #################################  */
+/*  ### MAIN - CONTACT THE BENDER ###  */
+/*  #################################  */
+
+.contact {
+
+}
+
+.form-inner-container {
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.form-inner-container:first-child {
+    padding-top: 0;
+}
+
+.form-inner-container label {
+    line-height: 3rem;
+    vertical-align: middle;
+    display: block;
+    padding: 10px 10px;
+    margin: 5px;
+}
+
+.form-inner-container label span {
+    float: left;
+    display: inline-block;
+    width: 40%;
+}
+
+.form-inner-container label select,
+.form-inner-container label textarea,
+.form-inner-container label input {
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-radius: 0;
+    display: inline-block;
+    width: 60%;
+    border: none;
+    padding: 0 5px;
+    margin: 0;
+    height: 3rem;
+    float: left;
+}
+
+.form-inner-container label textarea {
+    resize: vertical;
+}
+
+.form-inner-container label input[type='color'] {
+    padding: 1px 1px;
+}
+
+.submit {
+    margin: 10px 10px;
+}
+
+.submit:hover button::before {
+    content: "\2799";
+    margin: 0 5px;
+    font-size: large;
+}
+
+.button-submit {
+    width: 210px;
+    height: 45px;
+    margin: 10px 5px 0 0;
+    float: right;
+    line-height: 50px;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    border: none;
+    text-align: right;
+    padding: 0 15px 0 0;
+}
+
+@media only screen and (max-width: 480px) {
+
+    .form-inner-container label span {
+        float: none;
+        width: 100%;
+    }
+
+    .form-inner-container label select,
+    .form-inner-container label textarea,
+    .form-inner-container label input {
+        float: none;
+        width: 100%;
+    }
+
+    .button-submit {
+        display: block;
+        float: none;
+        width: initial;
+        margin: 10px auto;
+        padding: 0 15px;
+    }
+
+    .submit:hover button::before {
+        content: '';
+        margin: 0;
+        display: none;
+    }
+
+}
+
+/*  ##############  */
+/*  ### FOOTER ###  */
+/*  ##############  */
+
+.footer {
+    height: 200px;
+}

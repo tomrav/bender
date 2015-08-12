@@ -1,0 +1,43 @@
+@font-face {
+    font-family: nexa_rust_handmadeextended;
+    src: url("../resources/fonts/nexarusthandmade_extendedfree_macroman/NexaRustHandmade-Extended-Free-webfont.ttf");
+}
+body {
+    font-size: 1.2em;
+}
+
+.header-title {
+    font-family: nexa_rust_handmadeextended, sans-serif;
+    border-bottom: 2px dashed rgb(247, 122, 82);
+}
+
+.section-title {
+    font-family: nexa_rust_handmadeextended, sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+.footer-title {
+    font-family: nexa_rust_handmadeextended, sans-serif;
+}
+
+.meet {
+    font-family: nexa_rust_handmadeextended, sans-serif;
+}
+
+.do {
+    font-family: nexa_rust_handmadeextended, sans-serif;
+}
+
+.book {
+    font-family: nexa_rust_handmadeextended, sans-serif;
+}
+
+.contact {
+    font-family: nexa_rust_handmadeextended, sans-serif;
+}
+
+.smaller-font {
+    font-size: 0.9em;
+}
+
