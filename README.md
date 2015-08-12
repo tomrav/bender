@@ -1,3 +1,3 @@
 
 gh-pages link here:
-http://tomrav.github.io/kickstart/bender/
+http://tomrav.github.io/bender/
