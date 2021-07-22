@@ -1,8 +1,2 @@
 name: Question
 description: Ask a question concerning Stylable
-assignees: []
-body:
-  - type: markdown
-    attributes:
-      value: |
-        Please submit questions to our [discussion board](https://github.com/wix/stylable/discussions)
