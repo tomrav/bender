@@ -1,6 +1,5 @@
 name: Question
 description: Ask a question concerning Stylable
-title: ''
 assignees: []
 body:
   - type: markdown
