@@ -5,3 +5,10 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill this out!
+  - type: textarea
+    id: general-description
+    attributes:
+      label: Describe your issue
+      description: General description about the issue you would like to raise
+      value: ''
+      
