@@ -2,7 +2,7 @@ name: Feature Request
 description: Make a feature request
 title: '[Feature]: '
 labels: [feature, triage]
-assignees:
+assignees: []
 body:
   - type: markdown
     attributes:
