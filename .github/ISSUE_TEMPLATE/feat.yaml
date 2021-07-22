@@ -1,3 +1,7 @@
 name: Question
 description: Anything that is not a bug report or a feature request, questions should be directed to our [discussion board](https://github.com/wix/stylable/discussions)
-body: []
+body: 
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill this out!
